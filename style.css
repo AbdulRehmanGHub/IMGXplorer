@@ -11,17 +11,17 @@ body {
     cursor: default;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     background-color: #52b788;
     width: 6px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #d8f3dc;
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
     background-color: #aaffb7;
 }
 
@@ -31,7 +31,7 @@ body {
     width: 70vw;
 }
 
-.logo img{
+.logo img {
     width: 60%;
 }
 
@@ -70,7 +70,7 @@ body {
     background-color: #d8f3dc;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border: 1px solid #1b4332;
 }
@@ -83,7 +83,6 @@ input:focus{
     cursor: pointer;
     transition: ease-in .3s;
     font-size: 1rem;
-    font-weight: 700;
     color: #1b4332;
     background-color: #d8f3dc;
 }
@@ -103,6 +102,7 @@ input:focus{
     gap: 10px;
     padding: 1rem .6rem;
 }
+
 /* 
 .imageContainer{
     border: 1px solid black;
@@ -143,7 +143,7 @@ input:focus{
     transition: ease-in-out .3s;
 }
 
-.imageContainer2:hover{
+.imageContainer2:hover {
     box-shadow: 2px 2px 6px #aaffb7;
 }
 
@@ -159,23 +159,43 @@ input:focus{
     color: #d8f3dc;
 }
 
+.pageBtns {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 2rem;
+    margin: 3rem 1rem;
+}
 
-footer{
+.pageBtns button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: ease-in .3s;
+    color: #1b4332;
+}
+
+
+footer {
     margin: 1rem 0;
     color: #d8f3dc;
     letter-spacing: 2px;
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 2vw;
 }
 
-footer span{
+footer span {
     font-size: 2.2vw;
     transition: all linear .3s;
 }
 
-footer span:hover{
+footer span:hover {
     color: #52b788;
 }
